@@ -1,0 +1,118 @@
+# Topological Insulators in Three Dimensions
+
+Liang Fu, C. L. Kane, and E. J. Mele
+
+Department of Physics and Astronomy, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA
+
+Received 26 July 2006; published 7 March 2007
+
+###### Abstract
+
+We study three-dimensional generalizations of the quantum spin Hall (QSH) effect. Unlike two dimensions, where a single \(Z_{2}\) topological invariant governs the effect, in three dimensions there are 4 invariants distinguishing 16 phases with two general classes: weak (WTI) and strong (STI) topological insulators. The WTI are like layered 2D QSH states, but are destroyed by disorder. The STI are robust and lead to novel "topological metal" surface states. We introduce a tight binding model which realizes the WTI and STI phases, and we discuss its relevance to real materials, including bismuth.
+
+DOI: 10.1103/PhysRevLett.98.106803
+
+pacs: 73.43.-f, 72.25.Hg, 73.20.-r, 85.75.-d The advent of spintronics has motivated the study of the effects of spin orbit interactions (SOI) on the electronic structure of solids. SOI leads to the spin Hall effect [1,2], which has been observed in GaAs [3,4]. We proposed [5] that in graphene the SOI leads to the quantum spin Hall (QSH) effect. The QSH phase has a bulk excitation gap and gapless spin-filtered edge states. It is distinguished from a band insulator by a \(Z_{2}\) topological invariant [6], analogous to the TKNN invariant of the integer quantum Hall effect [7]. Because of the weak SOI in carbon, the SOI induced energy gap in graphene is likely to be small [8]. However, Murakami has recently suggested that bismuth bilayers may provide an alternative venue for the QSH effect [9], providing a new direction for the experimental observation of this phase.
+
+In this Letter we consider the generalization of the QSH effect to three dimensions. Recent work has shown that time reversal invariant energy bands in 3D are characterized by four \(Z_{2}\) invariants, leading to 16 classes of "topological insulators"[10,11]. Here, we will explain the physical meaning of these invariants and characterize the phases they distinguish. One of the invariants distinguishes what we will refer to as weak (WTI) and strong (STI) topological insulators. With disorder, the WTI is equivalent to a band insulator, while the STI remains robust. We show WTIs and STIs have surface states with an even and odd number of Dirac points, respectively. The latter case leads to a new "topological metal" surface phase, which we characterize. We introduce a tight binding model on a distorted diamond lattice, which realizes both the WTI and STI phases, allowing the surface states to be studied explicitly.
+
+In Ref. [12] we established the connection between the \(Z_{2}\) invariant for the bulk QSH phase and the spin-filtered edge states. We begin by reviewing that argument in a way which makes the generalization to three dimensions transparent. The 2D invariant can be understood using a Laughlin type construction [13] on a cylinder threaded by magnetic flux \(\Phi=0\) or \(\pi\) (in units of \(h/e\)). The invariant characterizes the change in the time reversal polarization (TRP), which signals the presence of a Kramers degeneracy at the ends, when \(\Phi\) is changed from 0 to \(\pi\). If the cylinder consists of a single unit cell in the circumferential (\(x\)) direction, then the magnetic flux threading the cylinder plays the role of the crystal momentum \(k_{x}\) in band theory. The spectrum of the discrete end states of the cylinder as a function of flux then reflects the edge state spectrum as a function of momentum. The change in the TRP as a function of flux determines the way the Kramers degenerate end states at the edge time reversal invariant momenta (TRIM) \(k_{x}=\Lambda_{1}=0\) and \(k_{x}=\Lambda_{2}=\pi\) are connected to each other. In the QSH phase the Kramers pairs "switch partners" [Fig. 1(a)], reflecting the change in the TRP, while in the conventional insulator [Fig. 1(b)] they do not. It follows that in the QSH phase edge states traverse the bulk energy gap, crossing the Fermi energy \(E_{F}\) an odd number of times between \(\Lambda_{a}\) and \(\Lambda_{b}\). In the insulating phase, the edge states are not topologically protected and cross \(E_{F}\) an even number of times if at all.
+
+The change in the TRP between \(\Lambda_{1}\) and \(\Lambda_{2}\) is related to the bulk band structure, defined for a 2D system with periodic boundary conditions in both directions. The 2D Brillouin zone has four TRIM, \(\Gamma_{i}\), which are related to \(-\Gamma_{i}\) by a reciprocal lattice vector. For an edge perpendicular to \(\mathbf{G}\) the 1D edge TRIM \(\Lambda_{a-1,2}\) are projections of pairs \(\Gamma_{i=a1}\), \(\Gamma_{i=a2}\), which satisfy \(\Gamma_{a1}-\Gamma_{a2}=\mathbf{G}/2\), onto the line perpendicular to \(\mathbf{G}\).
+
+Figure 1: Schematic surface (or edge) state spectra as a function of momentum along a line connecting \(\Lambda_{a}\) to \(\Lambda_{b}\) for (a) \(\pi_{a}\pi_{b}=-1\) and (b) \(\pi_{a}\pi_{b}=+1\). The shaded region shows the bulk states. In (a) the TRP changes between \(\Lambda_{a}\) and \(\Lambda_{b}\), while in (b) it does not.
+
+The TRP associated with \(\Lambda_{a}\) can be expressed as \(\pi_{a}=\delta_{i=a1}\delta_{i=a2}\), where [12]
+
+\[\delta_{i}=\sqrt{\det[w(\Gamma_{i})]}/\text{Pf}[w(\Gamma_{i})]=\pm 1. \tag{1}\]
+
+Here the unitary matrix \(w_{ij}(\mathbf{k})=\langle u_{i}(-\mathbf{k})|\Theta|u_{j}(\mathbf{k})\rangle\). At \(\mathbf{k}=\Gamma_{i}\), \(w_{ij}=-w_{ji}\), so the Pfaffian \(\text{Pf}[w]\) is defined. \(\pi_{a}\) is free of the ambiguity of the square root in (1), provided the square root is chosen continuously as a function of \(\mathbf{k}\). However, \(\pi_{a}\) is not gauge invariant. A \(\mathbf{k}\) dependent gauge transformation can change the sign of any pair of \(\delta_{i}\)'s. This reflects the physical fact that the end Kramers degeneracy depends on how the crystal is terminated. It is similar to the ambiguity of the charge polarization [12]. The product, \(\pi_{1}\pi_{2}=\delta_{1}\delta_{2}\delta_{3}\delta_{4}\), is gauge invariant, and characterizes the change in TRP due to changing the flux from \(\Lambda_{1}=0\) to \(\Lambda_{2}=\pi\). This defines the single \(Z_{2}\) invariant in 2D, and using the above argument, determines the connectivity of the edge state spectrum.
+
+In three dimensions there are 8 distinct TRIM, which are expressed in terms of primitive reciprocal lattice vectors as \(\Gamma_{i=(n_{i}n_{i}n_{i})}=(n_{1}\mathbf{b}_{1}+n_{2}\mathbf{b}_{2}+n_{3} \mathbf{b}_{3})/2\), with \(n_{j}=0,\ 1\). They can be visualized as the vertices of a cube as in Fig. 2. A gauge transformation can change the signs of \(\delta_{i}\) associated with any four \(\Gamma_{i}\) that lie in the same plane. Modulo these gauge transformations, there are 16 invariant configurations of \(\delta_{i}\). These can be distinguished by 4 \(Z_{2}\) indices \(\nu_{0}\); (\(\nu_{1}\nu_{2}\nu_{3}\)), which we define as
+
+\[(-1)^{\nu_{0}}=\prod_{n_{j}=0,1}\delta_{n_{i}n_{2}n_{3}}, \tag{2}\]
+
+\[(-1)^{\nu_{i=1,2,3}}=\prod_{n_{j,i}=0,1}\delta_{n_{i}n_{i}n_{3}}. \tag{3}\]
+
+\(\nu_{0}\) is independent of the choice of \(\mathbf{b}_{i}\). (\(\nu_{1}\nu_{2}\nu_{3}\)) are not, but they can be identified with \(\mathbf{G}_{\nu}=\sum_{i}\nu_{i}\mathbf{b}_{i}\), which belongs to the 8 element mod 2 reciprocal lattice, in which vectors that differ by 2G are identified. (\(\nu_{1}\nu_{2}\nu_{3}\)) can be interpreted as Miller indices for \(\mathbf{G}_{\nu}\).
+
+\(\nu_{0-4}\) are equivalent to the four invariants introduced by Moore and Balents [10] using general homotopy arguments. The power of the present approach is that it allows us to characterize the surface states on an arbitrary crystal face. Generalizing the Laughlin argument to three dimensions, consider a system with open ends in one direction and periodic boundary conditions in the other two directions. This can be visualized as a torus with a finite thickness (a "Corbino donut"), which has an inside and an outside surface. Viewed as a 1D system, we then seek to classify the changes in the Kramers degeneracy associated with the surfaces as a function of two fluxes threading the torus (or equivalently as a function of the two components of the surface crystal momentum).
+
+For a surface perpendicular to \(\mathbf{G}\), the surface Brillouin zone has four TRIM \(\Lambda_{a}\) which are the projections of pairs \(\Gamma_{a1},\Gamma_{a2}\), that differ by \(\mathbf{G}/2\), into the plane perpendicular to \(\mathbf{G}\). Because of Kramers' degeneracy, the surface spectrum has two dimensional Dirac points at \(\Lambda_{a}\). The relative values of \(\pi_{a}=\delta_{a1}\delta_{a2}\) determine how these Dirac points are connected to one another, as illustrated in Fig. 1. For any path connecting \(\Lambda_{a}\) to \(\Lambda_{b}\), the surface band structure will resemble Fig. 1(a) and 1(b) for \(\pi_{a}\pi_{b}=-1(+1)\), and the surface bands will intersect \(E_{F}\) an odd (even) number of times. It follows that the surface Fermi arc divides the surface Brillouin zone into two regions. The Dirac points at the TRIM \(\Lambda_{a}\) with \(\pi_{a}=+1\) are on one side, while those with \(\pi_{a}=-1\) are on the other side.
+
+In Fig. 2 we depict \(\delta_{i}\) for four different topological classes, along with the predictions for the edge state spectrum for a 001 face. The surface Fermi arc encloses either 0(4), 1(3), or 2 Dirac points. When the number of Dirac points is not 0(4), there must be surface states which connect the bulk conduction and valence bands.
+
+There are two classes of phases depending on the parity of \(\nu_{0}\). For \(\nu_{0}=0\) each face has either 0(4) or 2 enclosed Dirac points. For a face \(\mathbf{G}=\sum_{i}m_{i}\mathbf{b}_{i}\) there are 0(4) Dirac points for \(m_{i}=r_{i}\,\text{mod}\,2(i=1,2,3)\) and 2 Dirac points otherwise. These phases can be interpreted as layers of 2D QSH states stacked in the \(\mathbf{G}_{\nu}\) direction. They resemble 3D quantum Hall phases [14], which are indexed by a triad of Chern integers that define a reciprocal lattice vector \(\mathbf{G}\) perpendicular to the layers and give the conductivity \(\sigma_{ij}=(e^{2}/h)e_{ijk}G_{k}/(2\pi)\). In the present case, \(\mathbf{G}_{\nu}\) is defined modulo 2G, so that layered QSH phases stacked along \(\mathbf{G}_{\nu}\) and \(\mathbf{G}_{\nu}+2\mathbf{G}\) are equivalent.
+
+The presence or absence of surface states in the \(\nu_{0}=0\) phases is delicate. For the 0;(001) phase in Fig. 2, the 100 face has two Dirac points, while the 801 face has 0(4). This sensitivity is a symptom of the fact that the topological distinction of these phases relies on the translational symmetry of the lattice. Indeed, if the unit cell is doubled, the
+
+Figure 2: Diagrams depicting four different phases indexed by \(\nu_{0}\); (\(\nu_{1}\nu_{2}\nu_{3}\)). (a) depicts \(\delta_{i}\) at the TRIM \(\Gamma_{i}\) at the vertices of the cube. (b) characterizes the 001 surface in each phase. The surface TRIM \(\Lambda_{a}\) are denoted by open (closed) circles for \(\pi_{a}=\delta_{a1}\delta_{a2}=+1(-1)\). They are projections of \(\Gamma_{a1}\) and \(\Gamma_{a2}\), which are connected by solid lines in (a). The thick lines and shaded regions in (b) indicate possible surface Fermi arcs which enclose specific \(\Lambda_{a}\).
+
+two Dirac points fold back on one another. A weak periodic potential then opens a gap. It is thus likely that disorder will eliminate the topological distinction between these phases and simple insulators. Surface states will generically be localized. For this reason, we refer to the \(\nu_{0}=0\) phases as "weak" topological insulators. Nonetheless, the weak invariants have important implications for clean surfaces.
+
+The \(\nu_{0}=1\) phases are more robust, and we refer to them as "strong" topological insulators. In this case the surface Fermi arc encloses 1(3) Dirac points on all faces. If the Fermi energy is exactly at the Dirac point this provides a time reversal invariant realization of the \(2+1\)-dimensional parity anomaly [15, 16, 17, 18] without fermion doubling. This can occur because the Dirac point partners reside on opposite surfaces. For a generic Fermi energy inside the bulk gap the surface Fermi arc will enclose a single Dirac point. This defines a two-dimensional "topological metal" that is topologically protected because a quantized Berry's phase of \(\pi\) is acquired by an electron circling the Fermi arc. This Berry's phase implies that with disorder the surface is in the symplectic universality class [19, 20], which is not localized by weak disorder.
+
+To develop an explicit model of these phases we consider a 4 band tight binding model of \(s\) states on a diamond lattice with SOI, that generalizes the 2D honeycomb lattice model [5, 16, 18].
+
+\[H=t{\sum\limits_{\langle ij\rangle}}c_{i}^{\dagger}c_{j}+i(8\lambda_{\rm{SO}}/ a^{2}){\sum\limits_{\langle\langle ij\rangle\rangle}}c_{i}^{\dagger}{\bf s} \cdot({\bf d}_{ij}^{1}\times{\bf d}_{ij}^{2})c_{j}. \tag{4}\]
+
+The first term is a nearest neighbor hopping term. The second term connects second neighbors with a spin dependent amplitude. \({\bf d}_{ij}^{1,2}\) are the two nearest neighbor bond vectors traversed between sites \(i\) and \(j\). \(a\) is the cubic cell size. The energy bands are shown in Fig. 3(a). Because of inversion symmetry, each band is doubly degenerate. The conduction and valence bands meet at 3D Dirac points at the three inequivalent \(X\) points \(X^{r}=2\pi\hat{r}/a\), where \(r=x\), \(y\), \(z\). This degeneracy is lifted by symmetry lowering modulations of the four nearest neighbor bonds \(t\to t+\delta t_{p}\), with \(p=1,\ldots,4\).
+
+Near \(X^{z}\) the low energy effective mass model has the form of a \(3+1\)-dimensional Dirac equation,
+
+\[{\cal H}\,\varepsilon_{\rm{eff}}=ta\sigma^{x}q_{z}+4\lambda_{\rm{SO}}a\sigma^ {z}(s^{x}q_{x}-s^{y}q_{y})+m^{z}\sigma^{x}. \tag{6}\]
+
+Here \({\bf q}={\bf k}-X^{z}\) and \(m^{z}={\sum_{p}}\delta t_{p}{\rm sgn}[{\bf d}_{p}\cdot\hat{z}]\). \({\bf d}_{p}\) is the bond vector associated with the \(p\)th nearest neighbor bond. The Pauli matrices \(\sigma^{i}\) are associated with the sublattice degree of freedom, while \(s^{i}\) describe the spin. \({\cal H}_{\rm{eff}}^{x,y}\) are the same with \(x\), \(y\), and \(z\) permuted in \(q_{i}\) and \(s^{i}\), but not \(\sigma^{i}\). Transitions between different phases occur when the masses at any of the \(X^{r}\) vanish. \(\delta t_{p}=0\) is thus a multicritical point separating 8 different phases.
+
+Determining \(\nu_{i}\) for these phases using (1-3) requires eigenvectors that are defined continuously throughout the Brillouin zone [12]. Since the Chern integers vanish, this is always possible. Determining the appropriate phases numerically, however, is nontrivial. An alternative numerical approach would be to characterize the Pfaffian function introduced in Ref. [6]. Generalizing the results of Ref. [12] it can be shown that the product of 4 \(\delta_{i}\) in any plane is related to the zeros of the Pfaffian in that plane, which can be identified without choosing phases. For the present problem, however, we are fortunate because \(\delta_{i}\) can be determined analytically. We find
+
+\[\delta_{i}={\rm sgn}\biggl{[}\sum_{p}(t+\delta t_{p})\cos\Gamma_{i}\cdot({\bf d }_{p}-{\bf d}_{1})\biggr{]} \tag{7}\]
+
+For small \(\delta t_{p}\), \(\delta=1\) at \({\bf k}=0\) and at 3 of the \(L\) points. \(\delta=-1\) at the 4th \(L\) point. At \(X^{r}\), \(\delta={\rm sgn}[m^{r}]\). When one of the four bonds is weaker than the others (\(\delta t_{p}<0\), \(\delta t_{(p^{\prime}\neq p)}=0\) for instance) the system is in a WTI phase, which may be interpreted as a QSH state layered in the \({\bf d}_{p}\) direction. There are 4 such states, depending on \(p\), of which two are shown in Fig. 3(b). We labeled the phases with the conventional cubic Miller indices for \({\bf G}_{p}\). 111 and 1\(\bar{1}\)\(\bar{1}\) are distinct elements of the fcc mod 2 reciprocal lattice. When one of the bonds is stronger than the others the system is in one of four STI phases. The band insulator 0;(000) is not perturbatively accessible from this critical point. However, in the tight binding model it occurs when one bond is turned up so that \(\delta t_{1}>2t\). A staggered sublattice potential also leads to a band insulator, but the strength must exceed a finite value (set by \(\lambda_{\rm{SO}}\)) before that transition occurs.
+
+To study the surface states, we solve (4) in a slab geometry. Figure 4 shows the 2D band structures of the four phases in Fig. 3 for a slab parallel to the 111 surface along lines that visit each of the four TRIM. The plots with the same \(\nu_{0}\) can be viewed as different faces of the same
+
+Figure 3: Energy bands for (a) the model (4) with \(t=1\), \(\lambda_{\rm{SO}}=0.125\). The symmetry points are \(\Gamma=(0,0,0)\), \(X=(1,0,0)\), \(W=(1,1/2,0)\), \(K=(3/4,3/4,0)\), and \(L=(1/2,1/2,1/2)\) in units of \(2\pi/a\). The dashed line shows the energy gap due to \(\delta t_{1}=0.4\). (b) shows the phase diagram as a function of \(\delta t_{1}\) and \(\delta t_{2}\) (for bonds in the 111 and 1\(\bar{1}\)\(\bar{1}\) directions) with phases indexed according to cubic Miller indices for \({\bf G}_{p}\). The shaded region is the STI phase.
+
+state. The bulk states above the bandgap are clearly seen. In addition, there are surface states which traverse the gap. In the WTI phases 0;(111) and 0; (11\(\bar{1}\) 1) there are 0 and 2 2D Dirac points, on both the top and bottom surfaces, as expected from the general arguments given above. In the STI phases 1;(111) and 1; (\(\bar{1}\) 1 1) there is 1(3) Dirac point on each surface. In each case, the nondegenerate surface states near the Dirac points are spin filtered, such that \(\langle\vec{s}(-\mathbf{k})\rangle=-\langle\vec{s}(\mathbf{k})\rangle\). Spin density and charge current are thus coupled.
+
+Though the 4 band diamond lattice model is simple, it is probably not directly relevant to any specific material. However, it may give insight into the behavior of real crystals. Consider a sequence of crystal structures obtained from diamond by continuously displacing the fcc sublattices in the (111) direction:
+
+\[\text{diamond}\rightarrow\text{graphite}(ABC)\rightarrow\text{cubic}.\]
+
+Starting with diamond, the 111 nearest neighbor bond is stretched, leading to the 0;(111) WTI phase. As the sublattice is displaced further both sublattices eventually reside in the same plane with a structure similar to _ABC_ stacked graphite. Displacing further, the lattice eventually becomes cubic. At this point, the gap closes, and the system is metallic. The \(s\) state model remains in the WTI phase up to the cubic point.
+
+Bismuth has the rhombohedral A7 structure, which can be viewed as a cubic lattice distorted "toward diamond", along with a trigonal distortion of the fcc Bravais lattice. Murakami showed that a bilayer of bismuth, whose structure is similar to a single plane of graphene, is in the QSH phase. This suggests that for weak coupling between bilayers bismuth is in the 0;(111) WTI phase. While this agrees with the simple model presented above, a realistic description of bismuth requires a theory which incorporates bismuth's five valence bands [21].
+
+It will be interesting to search for materials in the STI phase, which occur on the "other side of diamond" in our sequence. We hope that the exotic surface properties predicted for this phase will stimulate further experimental and theoretical efforts.
+
+It is a pleasure to thank Joel Moore and Leon Balents for helpful discussions. This work was supported by NSF Grants No. DMR-0079909 and No. DMR-0605066 and DOE Grant No. DE-FG02-ER-0145118.
+
+_Note added.--_In subsequent work we have predicted that a number of specific materials are STI's [22]. These include the semiconducting alloy Bi\({}_{1-x}\)Sb\({}_{x}\) as well as \(\alpha\)-Sn and HgTe under uniaxial strain.
+
+## References
+
+* [1] S. Murakami, N. Nagaosa, and S. C. Zhang, Science **301**, 1348 (2003).
+* [2] J. Sinova _et al._, Phys. Rev. Lett. **92**, 126603 (2004).
+* [3] Y. K. Kato _et al._, Science **306**, 1910 (2004).
+* [4] J. Wunderlich, B. Kaestner, J. Sinova, and T. Jungwirth, Phys. Rev. Lett. **94**, 047204 (2005).
+* [5] C. L. Kane and E. J. Mele Phys. Rev. Lett. **95**, 226801 (2005).
+* [6] C. L. Kane and E. J. Mele, Phys. Rev. Lett. **95**, 146802 (2005).
+* [7] D. J. Thouless, M. Kohmoto, M. P. Nightingale, and M. den Nijs, Phys. Rev. Lett. **49**, 405 (1982).
+* [8] Y. Yao _et al._, Phys. Rev. B **75**, 041401(R) (2007); H. Min _et al._, Phys. Rev. B **74**, 165310 (2006).
+* [9] S. Murakami, Phys. Rev. Lett. **97**, 236805 (2006).
+* [10] J. E. Moore and L. Balents, cond-mat/0607314 [Phys. Rev. B. (to be published)].
+* [11] R. Roy, cond-mat/0607531.
+* [12] L. Fu and C. L. Kane, Phys. Rev. B **74**, 195312 (2006).
+* [13] R. B. Laughlin, Phys. Rev. B **23**, R5632 (1981).
+* [14] M. Kohmoto, B. I. Halperin, and Y.-S. Wu, Phys. Rev. B **45**, 13 488 (1992).
+* [15] R. Jackiw, Phys. Rev. D **29**, 2375 (1984).
+* [16] G. W. Semenoff, Phys. Rev. Lett. **53**, 2449 (1984).
+* [17] E. Fradkin, E. Dagotto, and D. Boyanovsky, Phys. Rev. Lett. **57**, 2967 (1986).
+* [18] F. D. M. Haldane, Phys. Rev. Lett. **61**, 2015 (1988).
+* [19] H. Suzuura and T. Ando, Phys. Rev. Lett. **89**, 266603 (2002).
+* [20] S. Hikami, A. I. Larkin, and Y. Nagaoka, Prog. Theor. Phys. **63**, 707 (1980).
+* [21] Y. Liu and R. E. Allen, Phys. Rev. B **52**, 1566 (1995).
+* [22] L. Fu and C. L. Kane, cond-mat/0611341.
+
+Figure 4: 2D band structures for a slab with a 111 face for the four phases in Fig. 3. The states crossing the bulk energy gap are localized at the surface. In the WTI (STI) phases there are an even (odd) number of Dirac points in the surface spectrum. The inset shows the surface Brillouin zone.
